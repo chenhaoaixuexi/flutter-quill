@@ -1,0 +1,1487 @@
+43d20435 Changes to default editor and toolbar values (#1438)
+988c41bf New changes and improvemenets (#1437)
+db143c95 Bug fixes + Provide a way to handle the image errors and use custom image provider (#1428)
+4b87821d Upgrade version to 7.4.13
+88a7f2c7 Fixed tab editing when in readOnly mode (#1433)
+1022f2dd updated czech locale (#1429)
+4fb0683f Upgrade to 7.4.12
+5d301138 New features and improvements (#1419)
+e32f32a6 Upgrade version
+cae0e529 added the 'Swahili' locale  translation to toolbar.i18n.dart (#1425)
+065d0523 Upgrade version
+8a8b56d8 Pruning unused translations and adding relevant ones (#1424)
+48ffee67 update document: build arguments (#1421)
+8cb14b81 extensions: resolve missing package
+09f2778a extensions: update docs and release package 0.5.0
+9fcd0a7e Fix my issues and changes (#1417)
+ff381e6e Upgrade to 7.4.9
+84c2437e Style recognition fixes (#1416)
+848a0b5d Upgrade to 7.4.8
+b7224751 Code documentations and new event for confirm remove the image (#1414)
+3e0ed121 Add a event that triggers after removing the image from the editor && delete unused dependencies and upgrade all packages and plugins and remove gallery_saver which has not been updated for more than 23 months, it was a great plugin but it old now, and I also add some simple documentation and other minor improvements (#1413)
+09113cbc Upgrade version
+1fe49fb2 Complete German translation (#1408)
+8ff6a2a2 Add more Vietnamese translation strings (#1407)
+225a54a1 flutter_quill_extensions: replace gallery_saver with gal (#1403)
+a39f45e0 fix(CHANGELOG): use more descriptive bullet points (#1400)
+0330a249 Update README.md
+d9f673bf Add bulgarian language (#1397)
+ff28ee32 Fix #1394 and #1395 (#1396)
+4eb2d1d9 Fix #1392: UnhandledFlutterException: Null check operator used on a null value in Container.insert(container.dart:127) (#1393)
+36d72c19 Update README.md
+0b059044 Add turkmen language (#1387)
+e3c5ce13 Upgrade to 7.4.4
+6788d14f [Hoàng Sang] Fix #1311 (#1382)
+787c7a84 Upgrade to 7.4.3
+b64235c9 Fixed a space input error on iPad. (#1376)
+16ba7cbe Upgrade to 7.4.2
+0a0b54dd Fix bug with keepStyleOnNewLine for link (#1374)
+04fc2e2f [Hoàng Sang] When the number list is too large, numbers will be lost (#1373)
+2045d45e [Hoàng Sang] Fix some bugs (#1372)
+5dca6008 Upgrade to 7.4.1
+c00b555b Fix toolbar dividers condition (#1362)
+887fd8d8 flutter_quill_extensions: revert #1355 and bump image_picker dependency
+aba7c852 Upgrade to 7.4.0
+4f5977b6 Flutter 3.13.0 compability fix (#1361)
+dc5f259b Update toolbar.i18n.dart (#1358)
+c84329e5 versions update to release (#1357)
+888f46c9 updated dependencies conflicting (#1355)
+dbd99291 Update pubspec.yaml
+eb203938 Update README.md
+9f1e3b11 Android adjustments (#1343)
+60b105ee Upgrade to 7.3.2
+3263e7f2 feat: Added builder for custom button in _LinkDialog (#1342)
+df57af93 Update search_dialog.dart
+46b9278a Update toolbar.i18n.dart
+0ef2959e Upgrade to 7.3.1
+6984b78d Search enhancements (#1341)
+f74ab592 Upgrade to 7.3.0
+f4c61a9e Add default attributes to basic factory (#1336)
+77eb614d flutter_quill_extensions release version 0.4.0
+19d37fc7 Updated changelog
+3c8844ea Update pubspec.yaml (#1331)
+f218a59f Update pubspec.yaml
+d89a593e Upgrade to 7.2.19
+b6ec9ff5 Feat/link regexp (#1329)
+1c914308 Update pubspec.yaml
+b5571559 Fix paste block text in words apply same style. (#1324)
+8aca4827 Fix paste text mess up style and Add support copy/cut block text. (#1321)
+517f2641 Upgrade to 7.2.16
+1557a5de Allow for custom context menu (#1320)
+a363d9b6 Upgrade to 7.2.15
+aa749057 Add flutter_quill.delta library which only exposes Delta datatype (#1319)
+0885d4fd Update CHANGELOG (#1316)
+adb06b00 Fix errors when not in a View (#1315)
+5ff09327 Fix wording
+0ab6027f Fix around image use backspace key can't delete break line. (#1309)
+a353ef1a copy/cut select image and text together. (#1307)
+ffbb17c7 Update doc_cn.md (#1302)
+2c3adb07 Update README.md
+7938c375 Update README.md
+60f8001a Update tr translation toolbar.i18n.dart (#1299)
+c69afe8d Resolve deprecated method use in the video_player package
+67914f49 Released flutter_quill_extensions 0.3.3
+8e54adee Upgrade to 7.2.11
+1a5a5118 add affinity for localPosition (#1287)
+829a4f16 Update README.md
+c802193d Update toolbar.i18n.dart - FR (#1283)
+a981571d Upgrade to 7.2.10
+064b8d95 LINE._getPlainText queryChild inclusive=false (#1282)
+333771d4 Upgrade to 7.2.9
+eb90d6ea Add toPlainText method to `EmbedBuilder` and Revert example (#1280)
+7544ac12 Update Chinese README (#1278)
+eda9e415 Update Chinese README (#1277)
+70dfc6e5 Fix lint error
+838dca1f 'bn' locale added (#1276)
+079294dd Upgrade to 7.2.8
+46ddf130 added custom button widget in toolbar (#1272)
+01b61919 Upgrade to 7.2.7
+e1fa84f5 fixed language code of japan (#1270)
+a8780882 Upgrade to 7.2.6
+3fb5b7a0 Style custom toolbar buttons like builtins (#1267)
+ba809c82 Upgrade to 7.2.5
+0fd790e1 First pass of tests and simple CI (#1265)
+0906f71b Always use text cursor for editor on desktop (#1264)
+9d877478 Revert "First pass of tests (#1261)"
+0392a86c Upgrade to 7.2.4
+b738cad4 Fixed keepStyleOnNewLine (#1262)
+b883f727 First pass of tests (#1261)
+d547ec59 Upgrade to 7.2.3
+ba6fa9c6 get pixel ratio from view (#1259)
+ebef9d7d Upgrade to 7.2.2
+1124a1f2 Prevent operations on stale editor state (#1256)
+6fa05798 Update pubspec.yaml (#1252)
+205be05e Fix color picker dialog overflow (#1251)
+6399cca1 Translated some texts in 'pt_br' (#1250)
+4dd4212b Add icon color to custom button (#1245)
+94da3cfd Fix lint error
+f1b60d83 Upgrade to 7.2.1
+dbcc06a9 enhance color picker, enter hex color and color palette option (#1234)
+c1bef0ae Add support for android keyboard content insertion (#1236)
+df3afd3f Fix PR #1230 (#1233)
+fb890017 Scale leading widgets based on paragraph font size (#1226)
+6c621734 keep style when creating embedded element (#1232)
+a58ca0ab Upgrade to 7.1.20
+f56d5c36 pass linestyle to embeded block (#1230)
+99d60bc1 Update Arabic language of the toolbar.i18n.dart (#1225)
+494be800 Updated supported dart versions in flutter_quill_extensions
+140e77be Upgrade to 7.1.19
+5cd0785c flutter_quill_extensions release 0.3.2
+5ae6e824 Fix Rtl leading alignment problem (#1222)
+e06c3f32 Update pubspec.yaml (#1221)
+c35170dc Allow use of latest i18n dependencies (#1215)
+3b43baf2 Fix analysis error
+0a3fe3f6 Upgrade to 7.1.18
+10056610 Fixed issues from last Flutter update. (#1210)
+8758c2d9 7.1.17 release: updates dependencies (#1208)
+1149d031 Fix custom text style of lists not work (#1207)
+aab7ee8f Rename `_AxisDivider` to `QuillDivider` and make it public (#1205)
+ccdb88fb Fix subscript (#1204)
+6614030a Fix direction of toolbar dividers (#1202)
+d4aaea23 Add node params to custom recognizer function (#1199)
+c0ed80b7 Update zh_cn, zh_hk and jp translation (#1198)
+16443de0 Removed unnused package `universal_ui`
+99bd4e85 Reverted redundant dependency edits and released embeddings 0.3.1
+8a4a980d Upgrade to 7.1.14
+89b06c07 Add indents change for multiline selection (#1195)
+f4c2449f Upgrade to 7.1.13
+744d0b6c add custom recognizer (#1196)
+8fe0e000 Format code
+8da8201c Fix import order
+ed546e1a Upgrade to 7.1.12
+06cafef8 add superscript and subscript styles (#1194)
+fe8102e4 add inserting indents for lines for selected text (#1188)
+d83cc0cf Image embedding tweaks (#1187)
+dba00d88 Update changelog for flutter_quill_extensions
+7c94129c Update pubspec.yaml
+af1c087f Update `CHANGELOG.md`, `flutter_quill` version to 7.1.9 and `flutter_quill_extension` version to 0.2.1+1 (#1186)
+411f911d Editor tweaks (#1185)
+f2a1a1f4 Upgrade to 7.1.8
+6d9b43f9 Dropdown tweaks (#1182)
+752e1a74 Update pubspec.yaml (#1181)
+4617d79b Upgrade to 7.1.7
+431efc1e Toolbar tweaks (#1179)
+c3e410c2 Upgrade to 7.1.6
+3f7437b8 add enableUnfocusOnTapOutside field to RawEditor and Editor widgets (#1177)
+f7e1a50d Upgrade to 7.1.5
+539357bc Add tooltips for toolbar buttons. (#1175)
+e90e6eb7 Upgrade to 7.1.4
+871b4135 fix inserting tab character in lists (#1171)
+351bcb95 Upgrade to 7.1.3
+d62be3d1 fix ios cursor bug when word.length==1 (#1168)
+d517847d Upgrade to 7.1.2
+2ea29d56 fix non scrollable editor exception, when tapped under content (#1167)
+160006c4 Upgrade to 7.1.1
+01271b0c customLinkPrefixes parameter - makes possible to open links with custom protocol (deeplinks) (#1164)
+871b05e2 Upgrade to 7.1.0
+d5984dea fix ordered list numeration with several lists in document (#1163)
+f0ce4d05 Upgrade to 7.0.9
+216b1ff1 fix: Use const constructor for EmbedBuilder (#1160)
+ccdbfb7b Upgrade to 7.0.8
+50ad5017 Fix IME position bug with scroller (#1159)
+765f5410 Upgrade to 7.0.7
+0d0340ad add TextFieldTapRegion for contextMenu (#1158)
+d94fa6ef Upgrade to 7.0.6
+9b146f3f Fix line style loss on new line from non string (#1157)
+95b8f24a Format code
+36df0e39 Upgrade to 7.0.5
+8163cd89 Fix IME position bug for Mac and Windows (#1154)
+1f83bbd0 Unfocus when tap outside editor. fix the bug that cant refocus in afterButtonPressed after click ToggleStyleButton on Mac. (#1152)
+c44dbec8 Add url_launcher to pubspec for flutter_quill_extensions
+1fbf8da4 Release notes for 0.2.0 of flutter_quill_extensions (#1151)
+2c0a21a6 Upgrade to 7.0.4
+5b482e06 Have text selection span full line height for uneven sized text. (#1150)
+4e11298d Highlight the beginning selected, empty lines. (#1149)
+b3897920 Update doc_cn.md (#1145)
+4c005e2a Upgrade to 7.0.3
+f3b0fc83 fix ordered list numeration for lists with more than one level of list (#1142)
+dfa2070e Clean up code
+f5f0c2d2 Upgrade to 7.0.2
+b7951b02 allow widgets to override widget span properties (#1141)
+34cba178 Update README.md
+41367f15 added translations italian (#1137)
+0ee17ecf Fix the demo page so adding custom notes works on the web version. (#1134)
+8f8d4663 Fix import
+1be23063 Update dependency (#1129)
+3c64a08c Reformat code
+3e9452e6 Remove tuples (#1128)
+a864e29b Add korean translation 'Size' (#1127)
+a747e22f Improve ImageEmbedBuilderWeb (#1125)
+dbe57bd2 Update doc_cn.md (#1110)
+df8056c5 Upgrade to 6.4.4 (#1109)
+70fb6017 Fix some MissingPluginExceptions in tests (#1108)
+ab5690a6 Update some dependencies (#1107)
+e3b664e3 Upgrade to 6.4.2
+967af17a Replace `buildToolbar` with `contextMenuBuilder` (#1106)
+06d62d61 Upgrade to 6.4.1
+efd09b53 Add `contextMenuBuilder` to `RawEditor` (#1105)
+83ad28bf Added a property to control the detect word boundary behaviour (#1103)
+c68c2bd0 Added a property to control the detect word boundary behaviour (#1102)
+fdbebef7 Format code
+e81ac159 Vertical toolbar (#1101)
+76ea6c0e Fix analysis error
+97fd5d2e Upgrade to 6.3.5
+50f0b996 feat: Ability to add custom shortcuts (#1097)
+85fd04a6 Upgrade to 6.3.4
+9da4f633 update clipboard status prior to showing selected text overlay (#1096)
+852c8b7f Update README.md
+171d0b35 Update toolbar.i18n.dart (#1094)
+32a69741 Upgrade to 6.3.3
+e01449c9 fix: Fixed handling of mac intents (#1089)
+0046ca67 Small doc change to avoid json parse error (#1086)
+74544bd9 Remove transparent color of ImageVideoUtils dialog (#1079)
+d8b03675 Upgrade to 6.3.2
+11f65f98 fix error style when input chinese japanese or korean (#1078)
+13f0a2c7 Alert (#1076)
+0e555642 Added `unknownEmbedBuilder` to QuillEditor (#1073)
+61a4c6cc Upgrade to 6.3.1
+8e2043fc Update toolbar.dart (#1070)
+68f6ce30 Replace theme.toggleableActiveColor
+ca921905 Upgrade to 6.3.0
+640c1b49 fix  Error: The non-abstract class 'RawEditorState' is missing implementations for these members (#1041)
+d95c3485 Upgrade to 6.2.2
+8352fce9 fix: nextLine getter null where no assertion (#1061)
+e0016c98 Upgrade to 6.2.1
+7e14392c Revert "aligns numerical and bullet lists along with text content (#1054)"
+afff4af7 Code cleanup
+0efbb680 Upgrade to 6.2.0
+1c517795 aligns numerical and bullet lists along with text content (#1054)
+12bafd8d Upgrade to 6.1.12
+f28f2e30 korean translations (#1049)
+e0e4b46f Update README.md
+8a4431f0 Update toolbar.i18n.dart (#1044)
+addc1dc8 Update README.md
+f9b17e2c Update doc regarding options for conversion to HTML. (#1036)
+c1308734 Remove iOS hack for delaying focus calculation
+1597cb91 Delay focus calculation for iOS
+6e74971a Update README.md
+c25f50f0 Update README.md
+10a99c2a Update README.md
+28c2a7c8 Update README.md
+d22e46b7 Alter (#1032)
+fb26c842 Bump keyboard show up wait to 1 sec
+65c38a8d Recalculate focus when showing keyboard
+f66145b1 use flutter_youtube_player package
+c47adc6c Upgrade device_info_plus
+fc5210f8 Upgrade to 6.1.7
+1e730b66 Add czech localizations (#1028)
+fa046ac7 Format code
+7c63a912 Upgrade to 6.1.6
+0e76fb16 Update pubspec.yaml (#1008)
+0afc6cc1 completes french translations (#1007)
+a0afc6d6 Upgrade to 6.1.5
+bb31a790 Fix formatting exception (#1006)
+897a0fbf Upgrade to 6.1.4
+ff5e78c0 Add double quotes validation (#1002)
+60d51e28 Fix static analysis error
+127cb525 Upgrade to 6.1.3
+7d4a0b03 Revert "fix order list numbering (#988)"
+503f66dd exports more nodes to the public API (#996)
+fab011a1 Translation error corrected in Persian(fa) (#995)
+16020458 Upgrade to 6.1.2
+6c9698e3 Add typing shortcuts (#994)
+d15174e4 Upgrade to 6.1.1
+ee177534 fix order list numbering (#988)
+5e0a7fd6 Code cleanup
+f8ab5671 Code cleanup
+b4275900 Upgrade to 6.1.0
+6456c5b9 Add keyboard shortcuts for editor actions (#986)
+47d80f12 Update toolbar.i18n.dart (#984)
+2ac7b278 Upgrade to 6.0.10
+e8c1c91d upgrades device info plus to ^7.0.0 (#978)
+c4c51255 [Multiline Select] HomePage allows to select paragraph line on triple click (#983)
+391b21b4 Upgrade to 6.0.9
+aa8f82f7 - don't throw showAutocorrectionPromptRect not implemented. The function is called with every keystroke as a user is typing (#981)
+f52ea506 Upgrade to 6.0.8+1
+b7b1afc9 Fixes null pointer when setting documents. (#974)
+5516e70f Upgrade to 6.0.8
+27d9ac3b Make QuillController.document mutable. (#973)
+eceeb180 Upgrade to 6.0.7
+ccf1850e Allow disabling of selection toolbar. (#972)
+81963117 Fixed the read only demo page
+1f42da82 Revert #962 (#964)
+38ef5993 Fixed the translation of some words into Spanish (#963)
+24d9cdc6 Refactor function _buildCustomBlockEmbed
+8c387f79 Upgrade to 6.0.6
+f314dbf0 fix wrong custom embed key (#962)
+b10f15f0 Upgrade to 6.0.5
+ab6174d8 Fixes toolbar buttons stealing focus from editor. (#956)
+a855f599 ignore: unnecessary_import for typed_data
+b94968bb Upgrade to 6.0.4
+f6f548f5 Add typed_data import for Uint8List
+fd97d0ca Update README
+99de2b0d Add onImagePaste in example (#951)
+5228f389 Update FormulaButton
+a6c392a9 Upgrade to 6.0.3
+cacea007 Add ability to paste images (#950)
+ffbd50cd Code refactor
+7884f9a8 Upgrade to 6.0.2
+d966db13 Upgrade to 6.0.1
+22200b88 1. changed translation locale country code to lower case (#946)
+206d5246 Complete farsi translation (#941)
+46e2d86d Update toolbar.i18n.dart (#940)
+2284031a Update README
+be4c2132 Clean up dependencies
+f425b4d4 Update README
+52db6591 Update README.md
+5039cdef Added flutter_quill_extensions link to readme
+58fca1c3 Fixed publishing issues (#936)
+a4e9757a Moved onVideoInit to class parameter on embed builder (#934)
+ffdefaec Update flutter_quill_extensions package ready for publishing (#935)
+5715a375 Upgrade to 6.0.0
+82d4bf76 Embed refactor (#933)
+4b46df25 BidirectionalIterator' is deprecated and shouldn't be used
+ba4c25e6 Upgrade to 5.4.2
+a8f3ba5b update dependencies to remove conflict with other packages (#929)
+f2b43c57 Add pt_br translations to toolbar strings (#920)
+b8ebcbdb Export Node class
+d78fd815 Add missing translation keys
+b89547dd Remove typedef CameraPickSettingSelector
+25cbc884 Redo custom camera pick
+c507e4fc Remove formula since it causes app unable to load
+44a55512 Revert "Add custom toolbar for photo and video. (#906)"
+f0ef795c Add custom toolbar for photo and video. (#906)
+91eb56ae Upgrade to 5.4.1
+7abe973c Update toolbar.i18n.dart (#901)
+6ef78a3b Remove Unused import
+fe4d7f27 Upgrade to 5.4.0
+a707918f Added Formula Button (for maths support) (#900)
+ac1cf592 upgrade to 5.3.2
+fc9d3d37 Enable search when text is not empty
+9c862ac1 Code cleanup
+99521ca7 Upgrade to 5.3.0
+dd5794f7 Implement search button
+fb72f56e Add search function in controller
+777951e0 Initial UI of search
+1a0dfa1d Add initial search button
+d2b308dc Add function to search the whole document for any substring matching the pattern Returns the offsets that matches the pattern
+695001c8 Update README.md
+19a8c92e Update README.md
+cdf6b56a Add documentation in Simplified Chinese language (#893)
+42b416ea Upgrade to 5.2.11
+45ed67bc remove default small color (#892)
+56752787 add two more fonts
+18c4d50a Upgrade to 5.2.10
+07709233 Don't wrap the QuillEditor's child in the EditorTextSelectionGestureDetector if selection is disabled (#890)
+033bce00 Upgrade to 5.2.9
+fc3b326b Added option to modify SelectHeaderStyleButton options and changed Attribute to const (#889)
+1b8a6513 Upgrade to 5.2.8
+a51327ba Make link match regex case insensitive
+81720861 Remove tooltip for LinkStyleButton
+6d24b248 Upgrade to 5.2.7
+a96b0d59 Add locale to QuillEditor.basic
+a4bedf58 Code refactor
+f11bc5bc Refactor code in raw_editor
+1a26a324 Upgrade to 5.2.6
+680a5db5 Fix keyboard pops up when resizing the image
+401f3176 Code cleanup for defaultEmbedBuilderWeb
+4e1bc307 Code cleanup
+25aeeab7 Ignore base64 image in web
+0866dfd5 Update README.md
+ce0b551d Initial defaultEmbedBuilderWeb implementation for video
+162a86c5 Use constants in universal_ui.dart
+68c814bd Temporary hack for defaultEmbedBuilderWeb
+f68861db Fix CHANGELOG.md
+e09b4574 Upgrade youtube_player_flutter_quill to 8.2.2. (#886)
+af7284a5 Upgrade to 5.2.4
+5186c70b fixed undefined main class on example (#885)
+bf40b213 Fix import of youtube_player_flutter_quill
+d69bb121 Fixed Flutter Quill Not Working With Xcode 14 Beta or iOS 16 Beta (#884)
+74eb7719 Upgrade to 5.2.3
+6647b53d Flutter Quill Doesn't Work On iOS 16 or Xcode 14 Betas (Stored properties cannot be marked potentially unavailable with '@available') (#883)
+73e6ee51 Upgrade to 5.2.2
+b2eb6758 Update platform.dart (#882)
+a663caba Update README.md
+5ff2997c Upgrade to 5.2.1
+14f88665 Rename QuillCustomIcon to QuillCustomButton
+dd469176 Update README.md
+37562f03 Update README.md
+1817a063 Add fonts ttf files in example
+56be8e68 Update README.md
+f42f318d Upgrade to 5.2.0
+71d06f6b Support font family selection
+6a462eee Rename variable in getEmbedNode function
+a1508d0e Update code introduction
+7f5a7521 i18n for toolbar size options
+4f851e18 Update code introduction
+eb15a3e7 Update code introduction
+6e40b9dd Fix typo
+108fc0ae Fix typo
+c9250f6f Upgrade to 5.1.1
+668d342c Update code introduction
+057fab3f Update README.md
+4ae7d879 Add code introduction
+af4fb81e Fix null pointer of _controller on read only page
+506303a5 Added CustomBlockEmbed to the Readme (#879)
+1a40ebeb Code cleanup
+a80df6f8 Code cleanup
+61599ea2 Update README
+4c51b774 Upgrade to 5.1.0
+48f89327 Added CustomBlockEmbed and customElementsEmbedBuilder (#877)
+d26b24d8 Upgrade to 5.0.5
+cf5bc229 Update README.md
+ff00a888 Add Serbian translation (#876)
+b2d0f7b9 Upgrade to 5.0.4
+93eac03f Added onVideoInit callback for video documents. See description for details (#867)
+36cb37ba remove default yellow underline (#864)
+38b18858 Update README.md
+106c261e added zh_HK translation (#856)
+825964b7 add Delta.from_operations factory (#852)
+13e3b239 Update README.md
+f1580d01 Add dutch translations (#847)
+a00b7fea upgrade to 5.0.3
+69261b35 Update pubspec.yaml (#839)
+44cec2f5 Format code
+92100f21 Upgrade to 5.0.2
+d3399979 Keep cursor position on checkbox tap (#834)
+bad872c3 Update dependencies for 3.0.0 (#833)
+8e3e1511 Update toolbar.dart (#831)
+e27f779a Update toolbar.i18n.dart (#830)
+88c3fcf4 Fix static analysis errors
+d0f02cad Upgrade to 5.0.0
+e8d82bc4 Adds flutter 3.0.0 support for now (#810)
+b398460f Upgrade to 4.2.3
+c40faa47 ignore color:inherit and convert double to int for level
+c59d3787 Update README.md (#821)
+7c1282eb upgrade version
+ccf09537 add clear option to font size dropdown
+b401cc55 Code cleanup
+5e39e5b2 Allow removing font size attribute from text (#817)
+2addd734 upgrade to 4.2.1
+db1f2522 Code cleanup
+caa397c1 Show 'Size' in QuillFontSizeButton when attribute size is not defined
+28158338 Simplify class QuillFontSizeButton
+fb0be15e Rename to class QuillFontSizeButton
+8d19ff72 Remove initialFontSizeValue in font size button
+2b0bf111 change font size map value to string
+aec7fdae Add getFontSize function
+63c333e1 Update README.md
+b7ad489a upgrade to 4.2.0
+0a9a6c96 format code
+5097e86b add dependency
+ea7f630e - fixed showToolbar: ensure selectionOverlay is available (#814)
+90e9d603 Update README.md (#805)
+4fe42579 This adds a new CustomIcons option to add your own icons to the QuillToolBar (#804)
+79140677 Upgrade to 4.1.9
+7387c3cc Using properly iconTheme colors (#802)
+af8146ad Upgrade to 4.1.8
+39093652 Add listener to font size drop down to update the widget based on current cursor position (#800)
+5eda9d86 Font size widget now respects iconTheme color and iconSize (#797)
+31dc6c80 Update README.md (#796)
+0f1fcd47 Create a 'Default' category for Font Size which results in no font size styling (#795)
+9a62ee79 Upgrade to 4.1.7
+b30fee9a Convert FontSize to a Map to allow for named Font Size (#794)
+62bc09d1 Add Hindi(hi) locale (#792)
+3030ec42 Upgrade to 4.1.6
+e94d0442 Update quill_dropdown_button.dart (#791)
+6ac59dcf Upgrade to 4.1.5
+7b330c95 Add Font Size dropdown to the toolbar (#790)
+e697c4fc Upgrade to 4.1.4
+d50833cd New borderRadius for iconTheme (#788)
+79590923 Fixed resized image on read only mode (#783)
+47a8748d Upgrade url_launcher
+c0c6b860 Upgrade to 4.1.3
+2b3fa606     - Fix selection handles show/hide after paste, backspace, copy (#769)
+67381cf3 Upgrade to 4.1.2
+84817857 Add full support for hardware keyboards (Chromebook, Android tablets, etc) that don't alter screen UI (#765)
+679febd5 Format code
+7f36b3bf Added textSelectionControls field in QuillEditor (#748)
+4c4301f1 Upgrade to 4.1.0
+15e7dfed feat: added Note to linkActionPickerDelegate (#741)
+dfc852e6 Upgrade to 4.0.12
+841c8cf4 Update README.md
+91967de6 Add Persian(fa) language (#740)
+9dca779f Upgrade to 4.0.11
+5e2d6a01 Fix cut selection error in multi-node line (#736)
+85040e25 Proper support for dynamic data in custom embeds (#732)
+658b586a Upgrade to 4.0.10
+7b3cde87 Fix vertical caret position bug (Discussion #690) (#723)
+474fd38a Upgrade to 4.0.9
+ef0355d8  Request keyboard focus when no child is found (#713)
+e1cd1843 Clean up code
+9888d5cc Upgrade to 4.0.8
+301d4cde fix: fix blank lines do not display when --web-renderer=html (#705)
+d47275f3 Cleanup code
+a3a8215b Upgrade to 4.0.7
+61551d0a - Refactor getPlainText (better handling of blank lines and lines with multiple markups) (#700)
+e51367b7 Upgrade to 4.0.6
+d9ca3c95 Bug fix for copying text with new lines (#697)
+c7be3a31 added selection change callback (#683)
+5772b51d Upgrade to 4.0.5
+dcfefa21 fix: fixed casting null to Tuple2 when link dialog is dismissed without any input (e.g. barrier dismissed) (#681)
+46a5cde7 Bug fix for text direction rtl
+e667f748 Upgrade to 4.0.3
+4f9ee27f Support text direction rtl
+a92bfe9d Upgrade to 4.0.2
+e895c8c0 clear toggled style on selection change (#675)
+b437fb01 Update Chinese translation
+7758f0a2 Update README.md
+c5cc54e3 no translation (#670)
+9512a53f Remove shortcut
+75d223a7 Update example for iOS
+3223a86c Upgrade to 4.0.1
+f6223e06 Use actions to fix showing handler
+22ab369c Update RawEditor
+21d001c9 Update RawEditorState
+9004ec95 Fix copy/cut/paste/selectAll not working
+1c73a172 Fix warnings
+802aca8f Upgrade to 4.0.0
+a56e640e Upgrade to flutter 2.10 (#646)
+84d41faf Upgrade to 3.9.11
+0edb2368 Adjust comments
+cfc5694e Update README.md
+95779f4d Update README.md
+3715229f Update README.md
+ef964f75 Added Indonesian translation (#660)
+fbcbddd7 Upgrade to 3.9.10
+350d7bcf Fix for undoing a modification ending with an indented line (#656)
+1e0b1259 Rename isIOSSimulator
+2e4ff7b4 Format code
+a1eea4de ios simulator cursor fix (#652)
+ac933e07 Upgrade to 3.9.9
+076eaf75 [For ios] Saving image that's filename does not end with it's file extension (#651)
+bd80406b Upgrade to 3.9.8
+466ff255 Update README.md
+17eb892a Update toolbar.i18n.dart (#650)
+cb458fa7 Upgrade to 3.9.7
+a82692fe Fix: Clicking on the Link icon without any text on a new line will crash
+90ecc8ae Upgrade to 3.9.6
+2c1856c5 Apply locale to QuillEditor(contents)
+17595aa4 Upgrade i18n_extension to 4.2.0
+768b5be4 Upgrade to 3.9.5
+94c6a1dc Fix image pasting
+9fc2df7c Upgrade to 3.9.4
+65b6e6d2 Hiding dialog after selecting action for image (#635)
+7d2efc73 Refactor code
+3fb4098f Upgrade to 3.9.3
+53f13a15 Update ImageResizer for Android
+97cb2029 Refactor code
+7a4b0593 Upgrade to 3.9.2
+7fbda469 Copy image with its style
+56d617cb Format code
+3e8f716a Upgrade to 3.9.1
+a4b6641b Support resizing image
+4f36393a Update _getImageNode method
+122b3c0e Refactor code
+0d646474 Refactor defaultEmbedBuilder
+2baad69a Fix Image Resizer
+5bfd36f1 Update ImageResizer
+50b53d1a Upgrade to 3.9.0
+35b53c74 Image menu options for copy/remove
+cfbd3d29 Update translation
+6e9f5969 Upgrade to 3.8.8
+816f1f13 Update set textEditingValue
+734ef66e Update defaultEmbedBuilder
+d07d397d Code cleanup
+97b97ce7 Option to resize image in edit mode
+a1f39564 Refactor code
+45a9597f Update _handleCheckboxTap
+3253a3c0 Code cleanup
+f278ea1d Upgrade to 3.8.7
+179fd0b8 Fix checkbox not toggled correctly in toolbar button
+69e4de70 Refactor code
+6c3c73bd export style class (#633)
+57f81efa Update check list button
+18ebe4a6 Upgrade to 3.8.6
+7bd494a3 Fix cursor position changes when checking/unchecking the checkbox
+3c7fcb3c Add comments
+152c3422 Update _EditableBlock constructor
+42366538 Update RenderEditableContainerBox constructor
+3c0e57d1 Override Embed toString
+e9323a05 Update childAtOffset method
+d5affcf9 Format code
+017194a4 Update controller.dart (#630)
+8ed3d354 Format code
+c1fe95bf Add translations for en_us
+a9732381 Update selectionCtrls.buildToolbar
+264b2cba Upgrade to 3.8.5
+86aff2a0 Fix _handleDragUpdate in _TextSelectionHandleOverlayState
+f0073549 Add comments
+65306808 renderObject in TextSelection is not nullable
+b3c627f7 _visibility in TextSelection is not nullable
+5b7d8650 Upgrade to 3.8.4
+2a359d34 fix link dialog layout (#627)
+8168bf28 Upgrade to 3.8.3
+111a2494 Fix for errors on a non scrollable editor (580) (#620)
+2f8c8fed Update README.md
+a9c2ca26 Upgrade to 3.8.2
+d0bcca76 Fix certain keys not working on web when editor is a child of a scroll view (#304) (#618)
+2b1a13b0 Upgrade to 3.8.1
+f4370adb Refactor _QuillEditorState to QuillEditorState (#609)
+69184a60 File access permission for gallery_saver.
+5935109c Format code
+6c4aa85c Upgrade to 3.8.0
+ab4e4743 fix paste style newline
+850f2a0c refactor and format
+3a963042 add paste style
+9ab557b8 fix getPlainText()
+4970a3b0 change toPlainText to exclude image
+955d8385 Add comments
+78277d5c Upgrade to 3.7.3
+24d3f783 fix selection overlay for collapsed selection (#606)
+8af6ddd5 uk and ru translations fix (#605)
+755d7ed7 [3.7.2] Reverted Embed toPlainText change
+7437c920 Fix getPlainText
+c5bba007 Fix collectAllIndividualStyles
+b928723b Revert "Revert "collectAllIndividualStyles uses offset instead of length""
+d298ca49 Revert "collectAllIndividualStyles uses offset instead of length"
+2e06a21c collectAllIndividualStyles uses offset instead of length
+ef7d17f2 Add getPlainText method
+b39ee617 Fix collectAllIndividualStyles
+15a86e24 Update collectAllIndividualStyles
+cd035d00 add collectAllIndividualStyle
+8a7b5d27 [3.7.1] Change Embed toPlainText to be empty string
+7d28c473 Add comments
+f1757a64 Upgrade to 3.7.0
+f56532b8 Replace Toolbar showHistory group with individual showRedo and showUndo (#603)
+619524b0 Fix Spanish + Portuguese translations (#602)
+d9c78314 Refer 65532 to class Embed
+29c8332d Upgrade to 3.6.5
+ee1092f0  _updateSizeAndTransform() for openConnectionIfNeeded
+90b6000d Override Leaf toString method
+100de11a Add comments
+ebffb43f Fix translations
+66bdfd25 Update link dialog for image/video
+4151ccc1 Upgrade to 3.6.4
+77609b4a Link dialogue TextInputType.multiline
+e1edc8df Refactor code
+c05ad83f Upgrade to 3.6.3
+059ac6f5 Bug fix for link button text selection
+23a2a9c9 Polish correct translations
+6ab75dc6 Upgrade to 3.6.2
+1c4fd1cd Improve link button
+81f54551 Upgrade to 3.6.1
+984260b3 Remove SnackBar 'What is entered is not a link'
+a2c19dfc Upgrade to 3.6.0
+df418e59 Allow link button to enter text
+c89779b4 [3.5.3] Change link button behavior
+702bb2a9 Fix typo
+689d7de5 Update comments
+98c25d0b Upgrade to 3.5.2
+d94c2a57 Revert "Simplify Embeddable and remove BlockEmbed"
+1a139d5e Correct Vietnamese translations (#601)
+25e5385e Bug fix for platform util
+e450c613 Simplify Embeddable and remove BlockEmbed
+09e369ae Remove horizontal line support
+c99d8452 Rename diff_delta to delta
+211cc4f9 Rename helper files
+4cf40efe Rename InsertEmbedButton to InsertHorizontalLineButton
+4f8ec3ed Mark deprecated classes
+73e56e90 Upgrade to 3.5.0
+e356f3c8 Breaking change: remove models under root
+60ddc361 Fix import for models
+34e6f163 Breaking change: remove root folder files
+4ed9cd14 Fix import
+0e027df6 Refactor: remove media_pick_setting.dart
+5c153e3b Refactor code
+53507416 Refactor using platform helper
+6b9c85f7 Refactor code
+c54424d3 Fix Korean Translation
+72077070 Upgrade to 3.4.4
+200fbaa7 Add more tranlations
+700b558b Upgrade to 3.4.3
+60ef316a changed customStyles fix (#599)
+9732f509 link editor: preset link from attributes (#597)
+a1be256f fix launch link and upgrade
+3290fec9 [3.4.1] Placeholder effective in scrollable
+32208664 Add Vietnamese translation (#596)
+97090ea2 Refactor _SimpleDialogItem class
+a6238886 Refactor defaultEmbedBuilder
+9a268c74 Upgrade to 3.4.0
+565f6316 Save image option (#593)
+379f35d7 Refactor code: isMobile function
+1d1d0757 Upgrade to 3.3.1
+95be062c Pass any specified key in QuillEditor constructor to super (#589)
+4cb0b281 Upgrade to 3.3.0
+55da91e5 fix queryChild
+046d3378 Format code
+56a0ae11 Upgrade to 3.2.1
+8e239f13 Update README.md
+7be5f246 Added polish translations (#588)
+0de3f8df Added portuguese translations (#587)
+dd2beeff Add comments
+4f7cc55b Update RenderEditableBox Container get container
+ce01abfb Update class RenderContentProxyBox
+c7dcbd2b Update RenderContentProxyBox double get preferredLineHeight
+f545c6b9 Refactor code
+ab1dfac8 Refactor code
+397dbf1a Add comments
+86654311 Upgrade to 3.2.0
+f20678cb feat: support multiple links insertion on the go (#579)
+a1822dd8 Update RawEditorState get selectionOverlay
+1505fcec Update EditorTextSelectionGestureDetectorBuilderDelegate
+8bd15fe7 Update delegate EditorState? get editor
+aa9ce686 Update EditorState get renderEditor
+430c6ae4 chore: re-create Android app to make it runnable (#577)
+e1ad83bf Upgrade to 3.1.1
+aa10d79d Make getRenderEditor() not nullable
+6c39fcbc Feature: add selection completed callback (#576)
+1ce8188c fix checkbox customize issue (#575)
+9d24c09e Reformat code
+7030784e fix custom checkbox issue (#573)
+5b126c8b Upgrade to 3.1.0
+b18b17d6 Fix image ontap (#570)
+0cb120d0 Code cleanup
+e4946ba4 Upgrade to 3.0.4
+3fd8aa23 Added maxContentWidth constraint to Editor
+8813e888 Revert "Rename _resolvePadding() to resolvePadding()"
+2be716f6 Add comments
+f94b1382 Rename _resolvePadding() to resolvePadding()
+6de4b1c7 Add comment
+47dd10b1 Add comments
+907cb623 Clean up code
+ed1ceb58 Add comments
+091bea1c Add comments
+0c43c8af Update SelectionGestureDetectorBuilder.build method
+6b2b2aa5 Add comment
+b2fb04e5 Add _TransparentTapGestureRecognizer
+9d6681ed Update constructor of EditorTextSelectionOverlay
+c49af0d4 Add comments
+05f8b634 Add comments
+d934c1a8 Update constructor of RichTextProxy
+56ef9f46 Upgrade to 3.0.3
+736de5ef Do not show caret on screen when the editor is not focused (#555)
+6ff29911 fix launch link for read only
+69a30794 Upgrade to 3.0.1
+a1aac335 Upgrade to 3.0.1
+6a4a8e20 Handle null value of Attribute.link
+a19b468a rename header to heading for inline code
+6d4de8e3 Export link.dart
+7c13740c Upgrade to 3.0.0
+2080aab6 Launch link improvements
+c8b50d9e Remove abstract class StyledNode
+193dd68c Revert "Implements StyledNode"
+dfa623a4 Implements StyledNode
+71793e5b Add abstract class StyledNode
+69979d86 Remove QuillSimpleViewer
+b3f277ed Format code
+ba3b3cb5 Format code
+373193ac Upgrade to 2.5.2: Skip image when pasting
+864c9bba fix paste
+5a98b857 [2.5.1] Bug fix for Desktop `Shift` + `Click` support
+30e6e0cb Update README.md
+ba9875be Add comments
+00f003ef Upgrade to 2.5.0
+d2444a2a Fix checkbox functionality (#541)
+aa213a5e Checked list is already considered block
+567315a5 PreserveBlockStyleOnInsertRule supports unchecked list
+25980df3 PreserveBlockStyleOnInsertRule supports checked list
+1aeb7028 Refactor code of ResolveLineFormatRule - no logic change
+b8f016e8 Refactor code of ResolveLineFormatRule
+5c12b117 Refactor out _getRemovedBlocks method
+325bb352 Add comments
+0d145f32 Upgrade to 2.4.1
+df209367 Desktop selection improvements
+048f4e5b Request keyboard focus when no child is found (#531)
+a0f3830a Hide selection overlay for collapsed selection
+263ee8fa Remove _sentRemoteValues
+b07ad1fa Upgrade to 2.4.0
+919ff0ec [2.4.0] Improve inline code style
+910c1c74 Upgrade to 2.3.3
+e9b11929 Improves selection rects to have consistent height regardless of individual segment text styles
+d1fa59a7 Reformat code
+156e0d71 Upgrade to 2.3.2
+69615422 disable floating cursor (#526)
+69f64047 Upgrade flutter_colorpicker to 1.0.3
+2703fa67 Upgrade to 2.3.1
+8bd4f1ee Preserve last newline character on delete
+e5fe8a98 Format code
+46f29a2a Upgrade to 2.3.0
+7ee58bf4 Upgrade to 2.8 (#519)
+49040447 Lower environment flutter version to work with pub.dev
+f530b849 Upgrade to 2.2.2
+13d54268 iOS - floating cursor
+2b8fc44a Make CursorPainter constructor named
+4c6390bf Upgrade to 2.2.1
+7d5befd7 flutter version, import fixes (#517)
+890e5842 Upgrade to 2.2.0: Support flutter 2.8
+881372dd selection delegate methods, imports cleanup (#515)
+f9bcaa64 Refactor out getAlignment method
+2db6f59d use named constructor for raw editor
+1b445694 Upgrade to 2.1.1
+9f689306 move cursor helpers (#507)
+7d6319de clear editor (#505)
+e265b54b Upgrade to 2.1.0.
+931f7e65 remove newline on concat (#502)
+4694189a add delete handler (#501)
+35c9f6bb Update README.md
+d1fe52f6 Update toolbar.i18n.dart (#499)
+f14015c6 Add ScriptAttribute
+cdd48723 upgrade to 2.0.23
+d23e161d style fetch fix on editing between different blocks (#496)
+b59e3600 Custom replaceText handler (#494)
+1b562c5b reformat
+9380ede2 upgrade to 2.0.22
+b09de44e font size parsing fix (#487)
+1d5c7a53 fix attributes compare (#486)
+477f3fc7 targetChild error temporary fix (#484)
+06463721 ukraine language support (#483)
+65164f76 upgrade to 2.0.21
+e954b3a6 handle click on embed object
+9c84f5c0 Update README.md
+ecc73824 add turkish language (#476)
+0ad61502 Update README.md
+eb9cc19e added spanish (#475)
+f90606b5 Update README.md
+e652bf61 Russian locale (#472)
+f6e1e2c0 small rewording for the assert message (#471)
+c39cc6db Upgrade to 2.0.20
+f4730174 Improving the UX/UI of Image widget (#470)
+b72a701e Upgrade to 2.0.19
+e0205a3c Update README.md
+6782a49b When uploading  a video, applying indicator (#469)
+7c7ab448 Upgrade to 2.0.18
+ce054fab Update toolbar.dart (#467)
+a724836a Update toolbar.dart (#466)
+4cce50a6 Make toolbar optional params not nullable
+0dedb1c8 Upgrade to 2.0.17
+63586773 Allow alignment of the toolbar icons to match WrapAlignment (#462)
+278980c6 Add a new parameter toolBarSectionSpacing to control the toolbar icon Wrap spacing (#461)
+7e958b61 upgrade to 2.0.16
+2db1cc93 format code
+733c9bd1 Add ability to hide/show Left, Center, Right and Justify alignment buttons (#460)
+cfe5d78a Update toolbar.dart (#458)
+7f61a171 Update README.md
+827a85a3 Add Korean Locale Translations (#451)
+5b5ecf4b Upgrade to 2.0.15
+013175f7 Update README.md
+0b1e0f21 implement change cursor to SystemMouseCursors.click when hovering a link styled text (#437)
+3a0add9a Reformat code
+963f6186 upgrade to 2.0.14
+230f091e enable customize the checkbox widget using DefaultListBlockStyle style. (#436)
+71a8f757  Extract the block style widgets from text_block.dart to style_widgets folder (#435)
+10d35392 Arabic Locale (#433)
+0270611c Fix change log
+2f4606de upgrade to 2.0.13
+2fd395a2 Improve the scrolling performance by reducing the repaint areas (#430)
+da8e1eec Upgrade to 2.0.12
+7bf237f3 [fix]: The selection effect can't be seen as the textLine with background color (#429)
+926afac5 Fix style issue
+c71747d4 Remove comment
+b029812c upgrade to 2.0.11
+4f0fa755 Fix visibility of text selection handlers on scroll
+c7158b55 Upgrade to 2.0.10
+aea3159d [fix]: cursorConnt.color notify the text_line to repaint if it was disposed (#428)
+d1320c42 upgrade to 2.0.9
+cf68700d small change
+a48e1f7b upgrade to 2.0.9
+4cb9e7c1 Improve UX when trying to add a link (#422)
+49b2cffd Upgrade to 2.0.8
+bc746964 Adding translations to the toolbar! (#421)
+e81ef95b upgrade library
+04d13224 Fix lint complaints
+aeb8da7d Upgrade to 2.0.7
+85df4033 Added theming options for toolbar icons and LinkDialog() (#418)
+0d83169c Upgrade to 2.0.6
+170752f6 fix offset
+6400ba1d Avoid runtime error when placed inside TabBarView (#410)
+1956f688 Upgrade to 2.0.5
+19600f7d Add inline code formatting
+6f32b0ed fix deprecated
+1143f7eb Swapping handles order is prevented
+2f298c66 fix null safety (#401)
+f253f582 Upgrade to 2.0.4
+0a67139f Feature: history shortcuts (#400)
+2009a0d1 Upgrade to 2.0.3
+2b572ca4 fix cursor when line contains image
+5b230a71 Rename CustomeKeyboardListener to KeyboardEventHandler
+a13ded26 Upgrade to 2.0.2
+52f51938 Address KeyboardListener class name conflict
+feec3538 Adapt to Flutter Channel stable, 2.5.0
+15029c25 Upgrade to [2.0.1] Upgrade flutter_colorpicker to 0.5.0
+6566fb71 update colorpicker to prevent error xcode build (#315)
+40e68ac3 Upgrade to 2.0.0
+97ba9cfb Text Alignment functions + Block Format standards (#382)
+89453793 Default small text to dark gray color
+3378ddff Revert caret position change which breaks its position
+15bd6f23 Add "small" (extended) markdown style support
+7c7f61fe Option added to controller to keep inline style on new lines (#372)
+a585a880 Upgrade to [1.9.6] Support putting QuillEditor inside a Scrollable view.
+a24241cf Raw editor update to support putting QuillEditor inside a Scrollable view (#371)
+36fb2e1c Upgrade to [1.9.5] Skip image when pasting.
+bd109bff Skip image when pasting
+d4018797 Upgrade to [1.9.4] Bug fix for cursor position when tapping at the end of line with image(s)
+dc66cf13 fix cursor at end when line contains image
+2b88eb1f Upgrade to [1.9.3] Bug fix when line only contains one image
+dd4caad3 fix cursor when line only contains an image
+2c9bbcf8 Rename StyleBuilder to CustomStyleBuilder
+bd41d77e Refactor _applyCustomAttributes function
+7523d962 Upgrade to [1.9.2] Support for building custom inline styles
+ada795ef Update QuillEditor constructor
+f56bbff7 Support for building custom inline styles (#351)
+9c40eb4e Update issue-template.md
+7a6719d9 Update quill_delta to offer possibility to clean up semantics
+3e43e520 Upgrade to [1.9.1] Cursor jumps to the most appropriate offset to display selection
+6f8624e3 Bring into view upon selection extension
+30d920fd Upgrade to [1.9.0] Support inline image
+d7b78944 Remove unused comments
+db25b9c8 support inline image
+0a409ae3 Upgrade to 1.8.3
+ad57c6ba Add fast diff
+3b4e5d8a Replaced double.infinity with DeltaIterator.maxLength
+138d89e5 Fix caret display when cursor on embed line
+23176956 Upgrade to 1.8.2
+1ece2863 Update Text Node clone method to clone value as well
+6aaf3512 Update text_line for handling Embed
+2195c4ae [Mobile] Support custom image size: make margin optional and support alignment
+c932c800 Support mobile custom size image
+19829e10 Add string_helper to refactor code
+4522e67c Read custom image styles 'mobileWidth', 'mobileHeight', 'mobileMargin'
+35257321 Refactor _isMobile function in image_video_utils
+8aec9466 Update home page for refactoring _isDesktop function
+59c8ec7f Upgrade to [1.8.0] Support entering link for image/video
+4f7718f3 Update README.md
+30df844d Add Link as source for images and videos (#316)
+350296e4 small change
+037c7b4d Upgrade to 1.7.3
+62ad7a8d Downgrade flutter_colorpicker since it is not ready yet
+db41ae59 Bumps `flutter_colorpicker` and `photo_view` versions (#310)
+8532ea0a Upgrade to 1.7.2
+91a25c3c Update simple_viewer for YoutbueVideoApp
+34e6a357 Upgrade to 1.7.1
+d3e5d560 can play youtube video
+a78fa195 can play local video
+3625b061 Add characters 1.1.0 in pubspec
+b12a28b6 Only launch video as link when read only
+bb38db5e add readOnly to emdedBuilder
+887a1f4d Show dialog to choose Photo or Video when clicking camera button
+853aea38 Refactor out camera button in toolbar
+e3bb1030 Adjust video button position
+1bf79dc2 Update README.md
+f3e10524 Update example for video button
+c7d71f7f Upgrade image picker
+10970194 Add initial video button
+25f13fb6 Launch video link
+0d3e8988 Display video as link if we cannot play it
+6d3fc30a Tune background color of video play button
+01220d69 Auto append new line after video
+af3604e1 Make transparency 100% for background color of video play button
+44521808 Update video play button color
+71c26c11 Update mp4 video link
+7c2286ba Initial video support (#298)
+cdd88241 fix undo insert image on empty asset
+2aa577ca Refactor code
+3d6e2590 Upgrade to 1.6.4
+dad5c676 collectAllStyles should return List<Style>
+bbabf4e2 Refactor code for collectAllStyles
+6751472a fix clear format button
+6ce51a66 Remove extra parenthesis
+a7349c66 Upgrade to 1.6.3
+0aa1a9ce Format code
+240688f0 Fixed dragging right handle scrolling issue (#289)
+3f6eca0c Upgrade to 1.6.2
+0c5a045d Format code
+6b9795ad Fixed the position of the selection status drag handle (#288)
+869503c2 solve placeholder issue, removing must focus (#286)
+503127df add the parameter to hide the camera (#278)
+5c7bede0 fix the OnImagePickCallback return value (#281)
+e7ea5fe6 Downgrade flutter_colorpicker
+a74b4d53 Upgrade image_picker and flutter_colorpicker
+2af19339 Upgrade to 1.6.0
+3c1ee9ee Support Multi Row Toolbar (#273)
+40d853e6 Update README.md
+3cdf1785 Upgrade to 1.5.0
+a65caa58 Update README.md
+2ba2e7e3 Remove file_picker dependency
+d9c0c531 Update _pickImageDesktop method
+195ccd7c Update _pickImageWeb method
+08fc0277 Replace deprecated textEditingValue method (#271)
+5318eeaa Update README.md
+8e19042d Upgrade to 1.4.1
+7349d7c2 Update README.md
+457c6e56 Remove filesystem_picker dependency
+6dc48267 Format code
+55e99e58 small fix
+9f89ae94 Update README.md
+e8c0c484 Upgrade version to 1.4.0
+6ac14902 remove path_provider dependency
+9af452e9 Upgrade version to 1.3.4
+17257374 Fix a wrong merge：abd80f5 (#266) (#267)
+4b4c8469 Add option to paintCursorAboveText (#265)
+71a0cec2 Format code
+76ef63e8 Upgrade to 1.3.3
+e69e9748 Fix #242 (#254)
+06a7f4aa Fix a bug that Embed could be together with Text (#249)
+ff930000 Bump file_picker to 3.0.2+2
+4bcb73fd Format code
+67071811 Upgrade version to 1.3.2
+3ca9e966 Remove extraneous toolbar dividers in certain configuration
+e2ab4df8 Fix paste bug
+cdf50b57 Add color parameter to Toolbar and ImageButton
+16d6f243 Show arrow indicator on toolbar (#245)
+aba8032b Fix example project Podfile (#241)
+a10197de use ceil instead of floor to make sure won't cause overflow
+c63831d0 Fix incorrect double to int cast, and guard against optional parent (#239)
+2b9d6bd7 Upgrade to 1.3.1
+30a9747b Fix buttons which ignore toolbariconsize
+8c3617c6 Add new logo
+c0f0ded4 Fix relative path
+f0459ba4 Add const types for image and divider embeds
+e6f1160d Fix exception
+3d6a915d Fix paste (#236)
+f499c478 Fix exception when rect is not a number
+ee45815d Remove exception when widget is not mounted
+40485781 Fix null exception
+0f6fd64b Move ResponsiveWidgets to example folder
+ea0dbd5c Don't create a lambda when a tear-off will do
+102883df Disallow lines longer than 80 characters
+4c11b28c Remove null exception when a disposed controller is set
+1fedaf0d Add comments to cursor class
+3b429840 Remove getter for final operator
+29260987 Dispose ValueNotifier of cursor controller
+95359f66 Fixes for flutter web (#234)
+d4e4b0d5 Hide implementation files (#233)
+ac68c237 Improve further SOC of raw editor
+0c05c530 Improve SOC of raw editor (#228)
+90e7f0ef Upgrade version
+56559209 Improve SOC of raw editor (#227)
+1ac73b7c Adding missing overrides to make package work with Flutter 2.2.0 (#226)
+f816ad7e custom rules & optionally auto add newline for image embeds (#205)
+08412c16 171: support for non-scrollable text editor (#188)
+2adebbe1 Upgrade version - checkbox supports tapping
+06c75637 Fix simple viewer compilation error
+760b4def Simple viewer (#187)
+e49421f4 Updating checkbox to handle tap (#186)
+da2a05aa Update issue templates
+ca9a13b1 Update Line _format method
+451dffc4 Fixes crashing disposed listeners on a bunch of widgets (#164)
+60127aeb Adds `doc.isEmpty` check to `Document._loadDocument(Delta doc)` (#163)
+3e576aeb Fixes `Document.toJson` to map from raw operations (#162)
+7cdbdd9a Make attribute registry ordered
+900d0f24 Fix: Indented position not holding while editing
+f7d47a12 Add comments to AutoExitBlockRule
+80d918ef Update PreserveBlockStyleOnInsertRule to apply all block styles
+df602cfa Format code
+bc5eb86a Indent attribute is consider block but may have null value
+b6763fe2 Revert "Indent attribute is consider block but may have null value"
+4c5f7282 Indent attribute is consider block but may have null value
+e4cf28d0 Update getIndentLevel
+0b33c951 Merge pull request #157 from singerdmx/ignoreFocus
+049ada2f adjustable toolbar button & bar size
+57c0fc5e Merge branch 'master' into ignoreFocus
+273340a1 Pass getTextPosition instead of passing the tap text position to be more flexible; optional ignoreFocus on replaceText
+14817ec7 close #149 underline strike through color according to text color (#150)
+63c2ef9d Upgrade to 1.2.0
+3080fc2a Fix image button cancel causes crash (#145)
+48d176d8 Merge pull request #142 from singerdmx/fix2
+b7063f00 toolbar button fillColor
+e08009e3 len fix
+106e54c3 add scrollBottomInset
+fe6ab738 Merge branch 'master' into fix2
+ce60ed3b Bump version to 1.1.8
+8c663ad9 Add comments from Zefyr to nodes folder
+873bfbce Sort constructors first
+9a29446c Make the issue template a little more friendly
+ff61b1a9 Fix more warnings (forgot to save the files)
+e1793ead Fix linter warnings in example
+483dba0e Remove unnecessary string interpolations
+5bab9188 Prefer interpolation to compose strings
+5c18ca1d Prefer int literals
+32b6c916 Prefer initializing formals
+78594aa2 Cascade invocations
+0a136edb Avoid void async
+6c31fb1b Avoid types on closure parameters
+b47d2285 Add already complied rules
+15a2f1d7 Prefer const declarations
+bc494bc5 Prefer final
+e4a3c117 Update example code
+31ec14c1 Prefer relative imports
+7cba9a85 Fix height of empty line bug (#141)
+154b58db Merge branch 'master' into fix2
+b68fc5a4 tap handles
+ac2ca07b Update issue templates
+041d24ce Use  widget.enableInteractiveSelection for copy/selectAll in ToobarOptions
+41056bcc Revert "☝️ Update deprecated code (#136)"
+d62f15d8 ☝️ Update deprecated code (#136)
+2cbc9928 Match new header buttons UI to ToggleStyleButtons. (#135)
+96b5be15 Add style for leading
+2f550d5e Replace header dropdown with buttons (#132)
+084adcb1 Refactor code
+8ab586c3 Fix text selection in read-only mode
+53eaf34a Revert change in openConnectionIfNeeded for readonly mode
+7791364c Fix warnings in example
+2e87ac92 Update issue templates
+8e845c5b Update issue templates
+047d0f72 default color, Document.fromDelta, fix isItCut null check (#123)
+f0dcca00 Readonly mode - temporary hack to dismiss keyboard
+5b9fb528 Make showCursor default to true
+30bd6342 Upgrade to 1.1.6
+96cb7eff Update README
+63a616e7 Remove universal_html dependency
+03e587b9 Upgrade universal_html
+2bf7b8b5 Enable "Select", "Select All" and "Copy" in read-only mode
+60431235 Update description
+4ed236f6 Release v1.1.4
+977f94b3 Fix "Show toolbar" bug (#120)
+4c16af44 Remove unnecessary parenthesis (#118)
+dfeae914 Prefer const constructors in immutables (#117)
+d6b21586 Prefer const constructors (#116)
+1cf37c18 Rebuild editor when keyboard is already open (#111)
+ace4fd4d Fix selection not working
+25f1582f Always put required named parameters first (#115)
+cd05dfae Avoid redundant argument values (#114)
+60c755d8 Revert "Added QuillEditor Key (#113)"
+bdb8f1c2 Added QuillEditor Key (#113)
+19e86fa7 Update description
+cfbe2547 Update README
+7ea11f0a Upgrade version to 1.1.3
+02e5fb0b Fix home page
+8efa97ec Remove prints (#110)
+ceb191b2 Rename app folder to example (#109)
+997f3a21 Update description
+67227594 Clear warnings
+718912bc Clear hints
+811cb341 Add pedantic
+25eff9cd Update README
+1c9cc297 Upgrade version to 1.1.1
+f62447ef add base64 image support in _defaultEmbedBuilder and Remove base64 header from image url (#107)
+fe7e0a6b fix
+4ac00bd9 Fix toggle color doesn't work (#97)
+975bc3b3 ignore .lock files update flutter_colorpicker to stable
+743cf20e Update app lock file
+4ebf5da5 Remove class _TransparentTapGestureRecognizer
+60514cbd Upgrade version to 1.1.0
+3021fbf0 Fix basic widget rendering and editor usage (#95)
+c593026f Sound null safety migration (#87)
+dda58059 Add hitTesting to allow changing click behavior in embeds
+e3603392 Fix link on pub.dev to "View/report issues" (#91)
+8f73a148 Upgrade version
+54c3eb44 Web support for raw editor and keyboard listener
+701c56c3 Update quiver hashcode dependency (#88)
+a5277ffd Support token attribute
+cdfce302 Upgrade version to 1.0.7 - Fix crash on web (dart:io)
+498dba59 fix crash on web (dart:io)
+f7d05ba2 Upgrade version to [1.0.6] Add desktop support - WINDOWS, MACOS and LINUX
+4d018393 desktop support (#79)
+cd47c76b remove deprecated upper bound
+2380c93b Upgrade version to 1.0.5
+14662c22 Bug fix: Can not insert newline when Bold is toggled ON (#75)
+17a38965 Update replaceText method
+9f4c1cf7 Update pbspec.lock
+59071021 Bugfix: the "select, copy, paste" toolbar was still accessible even if the interactive selection has been disabled (#71)
+6b7f7b4d Update home page
+49923679 Update CHANGELOG.md and upgrade photo_view to ^0.11.0
+5446a73b Fix _didChangeTextEditingValue for web
+766058b4 Upgrade version to 1.0.3 - Fix issue that text is not displayed while typing [WEB]
+e8b2ef4b Revert changes to home page
+19f5b831 Fix toolbar height and change in drawer UI (#63)
+9174208c Update toolbar in sample home page
+94210c50 Remove unused import
+c282f3c1 Fix Import issue (#61)
+a6983d2c Bump version: Fix static analysis errors
+80c15fb2 Fix all issues (#60)
+9810fae5 Remove conditional import (#59)
+d66c0589 Bug Fix and version update in pubspec.yaml
+41a05554 Revert "Bug Fix and version update in pubspec.yaml (#56)" (#57)
+ffbc2acf Bug Fix and version update in pubspec.yaml (#56)
+d2e6c131 Update toolbar.dart (#55)
+e34998ab upgrade gradle version
+b1155e3e support flutter 2.0
+a1d1a5cd Adding an article to week 02 of articles of the week (#51)
+4dfa6a47 format
+e8a3d4c2 close _keyboardVisibilityController.onChange in dispose
+c816a765 Upgrade version for Improve link handling for tel, mailto and etc
+9a89953f Expand link prefixes
+26652ef5 Improve link handling for tel, mailto and etc
+bef9c6e7 Revert the sdk version back to sdk: ">=2.7.0 <3.0.0"
+c7b0eac4 Fix for unable to remove the last character (#44)
+a2de79ab Fix quill_delta next op
+9211afc4 Remove quill_delta dependency
+78e48005 Update README.md
+08734a8e upgrade NullSafe dependencies
+2122f9b7 Upgrade prerelease SDK & Bump master version
+ec2b754a Refactor code
+fe01f66b Add base64 support in image import (#41)
+ae8f1a39 small fix
+6c156d4a more fix on keyboard focus when cursor is on + bump version
+2efb4b12 Update _keyboardVisibilityController.onChange.listen
+06000734 Update _keyboardVisibilityController.onChange.listen
+33ce59ae Upgrade flutter_colorpicker
+08ed4c3c Fix cursor focus issue when keyboard is on
+fd3aac99 small fix
+16e24730 Change type of SizeAttribute from String to double
+c2c5b2a9 bump version to 0.3.1
+471c1cb7 scroll screen on keyboard popup
+bc03670a Merge pull request #37 from rish07/master
+4e049a69 Fixed image pick issue on web
+6cd6abf3 Upgrade version
+a07d2db9 Update README.md
+c561c852 Update README
+b810dc00 Update home page
+5dcbf78a Change the image pick callback function
+9bcee887 Rename onImageTapCallBack to onImagePickCallback
+4f044e2b Rename uploadFileCallback to onImagePickCallback
+2d81b702 update pubspec yaml version and format code
+81fbca0d bump version to 0.2.12
+7d4bfa67 support placeholder for empty content
+f4f81d5b Bump Version to 0.2.11
+a3ee421d Add isEmpty method for Document class
+59410649 More docs (#33)
+ff3563ea Upgrade image_picker
+0bae9771 enable autocorrect
+caf6db84 Reuse textSpan
+556dd208 Update README.md
+20ab7474 Revert home page change
+9cf6bb94 Change baseSpacing to Tuple2(6.0, 0)
+fffc4dba Change baseSpacing for paragraph attribute
+066f4d29 Fix image size issue (#24)
+3308e5d7 Fixed phone build break issue
+c67c9664 Update README
+478c44c1 Fix image size issue
+c3aa1742 Update README.md
+0a5ceeb1 Merge pull request #22 from rish07/master
+14a417cb image support added on web
+8b1c7f89 Bump version to 0.2.8
+f1cc71d1 Replace Asset Image with File Image
+73573dd6 Upgrade version
+7837f98e Image attribute shows broken image icon when clicked
+49b3b6ac Return empty LookupResult if lookup range beyond body
+8ef16974 Update README
+d74e18a1 Merge pull request #19 from rish07/master
+e287043b Added keyboard shortcut with ctrl+b
+e9eba510 Bottom toolbar bug fix
+75263b6c Merge pull request #18 from rish07/master
+7ae0001a Revert changes in _SelectHeaderStyleButtonState
+55da7d62 Revert changes in _SelectHeaderStyleButtonState
+39f0dad2 Fix TextSelection
+b4694757 Merge pull request #17 from rish07/master
+5c31cd8b Update README.md
+f5c09b67 Update README.md
+05c7e9f0 Update README.md
+b8228c77 Update README.md
+33302db2 Fixed bottom toolbar
+a58e0d52 Fix cursor after pasting
+1f33d621 Refactor stringToColor function
+c3a9c115 fix color/background show color
+8fe232f4 Fix a bug that empty delta would be treated as retain and cause cursor to not move
+b7409992 small fix
+fa891f1f color white change fillColor
+505d7a47 text / background change icon color
+4abbfc14 Format code
+a0644c37 Merge pull request #13 from ArjanAswal/master
+bce5e4b2 Change toolbar color button icon
+947d2fbd Support the use of custom icon size in toolbar
+99680bd9 Upgrade version
+4213aa10 Pass styles to TextLine
+b04f31e1 Support image on local device storage without uploading
+95c4df54 Support custom styles
+88014d73 Update DefaultStyles constructor
+78cdeab5 Update Version
+b3f83e1c Upgrade version
+5b45693e Fix _onTapping not always returning bool
+a31b8023 Upgrade version
+28250d2c fix check list cursor
+a105db08 Update README.md
+84114257 fix check list button
+189d3a60 add button for list check attribute
+6551f363 Support font and size attributes
+89feb008 New version: Support checked/unchecked list
+36d40a98 Add size and font attributes
+c1844fec Fix for flip checkbox
+2bc0dd13 Initial fix for flip checkbox
+4f4eea1e Handle tapping when no text yet on this line for checkbox list
+1913136d Flip checkbox only tapping at the beginning of text line
+dfdd1b76 add check list ontap
+170f3c62 implement ontap for check list
+d8941d8a add check/uncheck list
+5740ca83 fix sample json typo
+4e619822 fix check attribute
+8b253517 add list check attribute
+3853c92b Rename _onTapping method
+e54787eb throw error for invalid color code
+bf44b9c7 Rename method to _tappingUrlOrImage
+7c2da544 Fix getExtentEndpointForSelection
+486b823d Support text alignment
+66d8a4ea Bump to v0.1.4
+fcf42fdd Trim url before launch
+f051abd4 Upgrade version
+f3e1be82 Format code
+e475d3b0 adjust cursor after undo/redo
+52e08d4a Update README.md
+806a0f30 Update README.md
+a69c3985 Update README.md
+0c272681 Handle more text colors.
+bf933285 Handle default color
+30d946d3 Handle color black
+5e258949 Support transparent color
+acc779d3 Refactor out _handleHistoryChange method
+0ac6a11f Upgrade version
+27ed9397 Fix Undo throw Offset cannot be negative
+1f333f4d Refactor out _handleImageInsert method
+1486e5dc Reformat code
+12b98a8a Update editor to catch targetChild null
+957ffcf8 upgrade version
+89de513d fix insert image
+a8ee798a Upgrade version
+c10b705e handle rgba color string
+4bc5a8f8 Format code
+04ad65ab Upgrade version
+a6581cda Fix launch url
+e46f4e3a Reformat code
+4d37c842 update pub version 0.0.7
+bb6fd50f automatically append '\n' for image
+6fa586ab Fix usage of AlertDialog
+07066569 Fix Undo throw Offset cannot be negative
+590fac04 Format code
+1d900afa Fix append \n for image in _transform
+ce777299 Handle multiple image inserts
+4e2f28a1 Bump flutter pub to V0.06
+eeb0b048 small fix
+2c076804 move toolbar
+f716457e Merge class BackgroundColorButton
+7a2529fd Fix changeColor hex logic
+dfe812e8 expose Stream<Tuple3> get changes
+c6b827a1 add indent button on press
+b5830f65 Fix https
+d21b8565 Fix _launchUrl
+da4f8e24 Fix launch url
+3450cf6e Update _launchUrl
+279a30b1 Update README
+c4577b33 Update README.md
+b87d60e9 Update README.md
+648f00d6 add clear format
+1fd5fbad Fix list button toggle
+665da6a8 small fix
+3a381916 fix indent button
+1be47425 add second indent button
+aaf419fb Remove unused code
+161a1017 Add undo/redo buttons in toolbar
+561fbbed Add history
+f4abf049 bump to v0.0.5
+e34e0c76 Update example
+c4d6edc6 Update example main.dart
+0d5884f3 add example file and bump version to 0.0.4
+0f3a24c8 Bump to v0.0.3
+3cc2ecfe correct home page
+52f3d401 Update CHANGELOG.md
+e2255411 Release V0.0.2
+92a05794 Support image tap to go to photo view
+75448d2d Ignore attributes of width and style
+e497e57f Remove image tapper
+341b9b01 Initial Image Picker implementation
+b6390153 toolbar buttons
+de418489 Revert "add buttons toolbar"
+d0281845 add buttons toolbar
+a6fad8b6 Add fake upload image function
+904c67e6 Horizontal Line default to invisible in toolbar
+37d7d85a Add Gallery Image and Camera Image buttons in toolbar
+4994e2a3 background color toolbar
+2ffc01ec Add empty InsertImageButton
+7f798e8e add read only page
+02db2adb Fix copy/paste
+af2cf54b Refactor code
+8c593a74 Update README.md
+ce877319 Support color picker
+51968066 _intToRoman use lower case
+7563aa6f Fix typo
+bcd481e6 Add default onLaunchUrl
+4ea9446a Readonly mode launch url
+4e5f5f4a Update README.md
+db7484da Update sample data
+0d952664 Support list with indent
+cb093b66 Add sample data for list with indent
+8565b60c Make _embedBuilder default
+6b806fdb Add empty ColorButton for toolbar
+d9ccbc51 Fix ResolveInlineFormatRule
+8dfb2f3d Update README.md
+1db198c5 Update README.md
+a1bebb3e Update toolbar
+9f171f1b Add QuillToolbar to home page
+92b45f77 Add QuillToolbar
+6d0ef368 Support align
+3ab793c3 Support indent
+cd88b9d0 Support hr embed
+53557aba Support background color
+2cd44d93 Support text color
+0d02bdad Update sample data
+cc212ae3 Update sample data
+aa17db91 Update sample data
+b0f4f288 Fix AutoExitBlockRule
+b3a43e3d Fix node   bool containsOffset(int offset)
+e469d8da Update sample data
+8dce6963 Fix _getTextSpanFromNode
+bb1e5047 Rename asset to sample_data.json
+530a494e Make attribute value final
+7fdb1edf Update sample data
+f84bc6e1 Update sample data
+ab315955 Update README.md
+318d1b09 Update attribute value to be private
+26c0bea9 Default readonly is false
+b328e601 FIx PreserveLineStyleOnMergeRule
+0800c6cb Fix getPositionDelta
+92a975b2 Add clone for Attribute
+e7244665 Fix line retain
+e808d07e Refactor code
+96438514 Update sample data
+fc2e5d19 Fix equals method
+3b9e6581 Update sample data
+c9139678 Fix PreserveBlockStyleOnInsertRule
+0d203b3f Fix delete button not working
+1bcd7277 Fix getEndpointsForSelection method
+03034a06 setState to trigger build and updateChildren
+47b02de7 Move RawEditorState
+f9b14580 Add style equals
+104e93a6 Fix QuillController
+4d4cdab5 Fix Container insert
+63056546 Fix replace method
+62af37fb Fix rules
+b40b0f63 Fix missing color
+68f4634b Fix leading and body
+e997ee92 Fix  TextSpan _buildTextSpan(BuildContext context) method
+2b6086ae Update QuillEditor constructor
+31f16bed Fix missing expands
+5efbfd5f Implement   _buildChildren(BuildContext context) for RawEditor
+11dbdedb Fix Tuple2 type
+76df253f add welcome note
+3b0225a4 Update AutoExitBlockRule
+8549475c Update README
+e9f669da Add Document.fromJson(List data)
+607e5ded Small refactor
+1c64c1a3 Add logging for applying rule
+dc7a62d9 Fix AutoExitBlockRule
+2a22c59f Finish RawEditorState build method
+23d26592 Implement RawEditorState class
+5dcada33 Implement class RenderEditableTextLine
+617acaa3 Add QuillField class
+fa82b1ba Implement class _TextSelectionHandleOverlay
+f52fd11f Implement EditorTextSelectionGestureDetectorBuilder
+2b82bae3 Implement EditableTextBlock class
+ecbede77 Implement RenderEditableTextBlock class
+9bce3f94 Rename to QuillStyles class
+c907f0cc Add QuillTheme class
+d9d1f676 Refactor code
+e8bd79a8 Update RenderEditableContainerBox class
+2c4b7d2f Implement RenderEditableContainerBox
+00b475eb Update README
+f89de198 Fix typo
+6d7f9463 Add initState and dispose in RawEditorState
+31c38609 Implement handleCursorMovement method
+db2a280d Implement RawEditorState
+4b9975fb Add EmbedBuilder
+d82c84d7 Implement _QuillEditorState
+f5a1a619 Add delegate and controller
+37fc173d Add default styles and text line
+dc7b4e79 Add cursor
+85537417 Add document class
+5373dc69 Add embed and update nodes
+162711de Refactor Container
+8306e02c Add Block and Line classes
+4876c0b9 Add Leaf class
+a0c92931 Update Attribute class
+04ed863a Update Style class
+c32e6b00 Add Style class
+e5044d9e Add ListAttribute
+0f90dd2a Add HeaderAttribute
+9ac35562 Add attribute class
+c2b3b9e3 Add utils diff_delta
+8ecec86e Remove title in home page
+287cd7f1 Add home page
+cda71cb2 add pub.dev uri link
+a4782de2 add demo case of flutter quill pckage local usecase
+533d88b6 init commit with meta data
+bb75cd62 Update README.md
+54676060 Update README.md
+927f4b83 Update README.md
+3cbc45a1 Update README.md
+795fea2d Update README.md
+fcaa26ef Initial commit
