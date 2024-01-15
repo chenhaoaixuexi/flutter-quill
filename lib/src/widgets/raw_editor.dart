@@ -84,6 +84,7 @@ class RawEditor extends StatefulWidget {
     this.customLinkPrefixes = const <String>[],
     this.dialogTheme,
     this.contentInsertionConfiguration,
+    this.onTextPaste,
   })  : assert(maxHeight == null || maxHeight > 0, 'maxHeight cannot be null'),
         assert(minHeight == null || minHeight >= 0, 'minHeight cannot be null'),
         assert(maxHeight == null || minHeight == null || maxHeight >= minHeight, 'maxHeight cannot be null'),
@@ -247,6 +248,8 @@ class RawEditor extends StatefulWidget {
   final ScrollPhysics? scrollPhysics;
 
   final Future<String?> Function(Uint8List imageBytes)? onImagePaste;
+  // 返回值用来判断是否已经消费了
+  final FutureOr<bool> Function(String text, TextSelection selection)? onTextPaste;
 
   /// Contains user-defined shortcuts map.
   ///
@@ -1500,7 +1503,7 @@ class RawEditorState extends EditorState
     // Snapshot the input before using `await`.
     // See https://github.com/flutter/flutter/issues/11427
     final text = await Clipboard.getData(Clipboard.kTextPlain);
-    if (text != null) {
+    if (text != null && !(await widget.onTextPaste?.call(text.text!, selection) ?? false)) {
       _replaceText(
         ReplaceTextIntent(
           textEditingValue,
