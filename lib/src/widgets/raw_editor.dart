@@ -535,10 +535,11 @@ class RawEditorState extends EditorState
         data: _styles!,
         child: Shortcuts(
           shortcuts: mergeMaps<ShortcutActivator, Intent>({
+            // todo by chenhao 暂时先三处 esc 快捷键, 以后处理下 state.hideToolbar();
             // shortcuts added for Desktop platforms.
-            const SingleActivator(
-              LogicalKeyboardKey.escape,
-            ): const HideSelectionToolbarIntent(),
+            // const SingleActivator(
+            //   LogicalKeyboardKey.escape,
+            // ): const HideSelectionToolbarIntent(),
             SingleActivator(
               LogicalKeyboardKey.keyZ,
               control: !isDesktopMacOS,
@@ -567,6 +568,7 @@ class RawEditorState extends EditorState
               meta: isDesktopMacOS,
             ): const ToggleTextStyleIntent(Attribute.italic),
             SingleActivator(
+              // cmd+shift+s
               LogicalKeyboardKey.keyS,
               control: !isDesktopMacOS,
               meta: isDesktopMacOS,
@@ -1680,7 +1682,8 @@ class RawEditorState extends EditorState
     IndentSelectionIntent: _indentSelectionAction,
     ApplyHeaderIntent: _applyHeaderAction,
     ApplyCheckListIntent: _applyCheckListAction,
-    ApplyLinkIntent: ApplyLinkAction(this)
+    ApplyLinkIntent: ApplyLinkAction(this),
+    InsertLinkIntent: InsertLinkAction(this)
   };
 
   @override
@@ -2513,6 +2516,29 @@ class _ApplyCheckListAction extends Action<ApplyCheckListIntent> {
 
   @override
   bool get isActionEnabled => true;
+}
+
+class InsertLinkIntent extends Intent {
+  const InsertLinkIntent({
+    required this.text,
+    required this.link,
+  });
+
+  final String text;
+  final String link;
+}
+
+class InsertLinkAction extends Action<InsertLinkIntent> {
+  InsertLinkAction(this.state);
+
+  final RawEditorState state;
+
+  @override
+  Object? invoke(InsertLinkIntent intent) async {
+    final textLink = QuillTextLink(intent.text, intent.link);
+    textLink.submit(state.controller);
+    return null;
+  }
 }
 
 class ApplyLinkIntent extends Intent {
