@@ -4,7 +4,7 @@ import '../../utils/widgets.dart';
 
 class QuillIconButton extends StatelessWidget {
   const QuillIconButton({
-    required this.onPressed,
+    this.onPressed,
     this.afterPressed,
     this.icon,
     this.size = 40,
