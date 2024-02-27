@@ -69,6 +69,11 @@ abstract class Node extends LinkedListEntry<Node> {
     return o <= offset && offset < o + length;
   }
 
+  bool containsOffsetInclude(int offset) {
+    final o = documentOffset;
+    return o < offset && offset < o + length - 1;
+  }
+
   void applyAttribute(Attribute attribute) {
     _style = _style.merge(attribute);
   }
@@ -135,7 +140,5 @@ class Root extends Container<Container<Node?>> {
   Container<Node?> get defaultChild => Line();
 
   @override
-  Delta toDelta() => children
-      .map((child) => child.toDelta())
-      .fold(Delta(), (a, b) => a.concat(b));
+  Delta toDelta() => children.map((child) => child.toDelta()).fold(Delta(), (a, b) => a.concat(b));
 }
