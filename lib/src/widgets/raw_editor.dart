@@ -1096,12 +1096,12 @@ class RawEditorState extends EditorState
   }
 
   Future<void> _requestFocusIfShould() async {
+    if (!mounted) return;
     if (!_didAutoFocus && widget.autoFocus) {
       _didAutoFocus = true;
       await Future.delayed(Duration.zero);
-      if (context.mounted) {
-        FocusScope.of(context).autofocus(widget.focusNode);
-      }
+      if (!mounted) return;
+      FocusScope.of(context).autofocus(widget.focusNode);
     }
   }
 
